@@ -40,7 +40,7 @@ for (const kind of policyOrder) {
   for (const match of html.matchAll(/href="(https:[^"]+)"/g)) {
     const url = match[1];
     assert(
-      url === `https://jaydenNguyen17.github.io/SoulTracks-Policies/${kind}/` ||
+      url === `https://jaydennguyen17.github.io/SoulTracks-Policies/${kind}/` ||
         allowedExternalLinks.has(url),
       `${kind}: unexpected external link ${url}`,
     );

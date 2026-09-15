@@ -9,7 +9,7 @@ if (!manifestPath) {
 }
 
 const policyOrder = ['terms_of_use', 'privacy_policy', 'community_guidelines'];
-const siteRoot = 'https://jaydenNguyen17.github.io/SoulTracks-Policies';
+const siteRoot = 'https://jaydennguyen17.github.io/SoulTracks-Policies';
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 
 for (const kind of policyOrder) {
